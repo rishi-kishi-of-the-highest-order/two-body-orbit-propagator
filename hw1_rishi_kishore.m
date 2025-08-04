@@ -1,6 +1,5 @@
 %-------------------------------------------------------------------%
 % Rishi Kishore
-% AE313 Homework 5
 %-------------------------------------------------------------------%
 
 close all;
@@ -38,7 +37,7 @@ mu = 398600; % km^3/s^2 (Gravitational parameter)
 %-------------------------------------------------------------------%
 % Part A: Displaying Name and Course Information
 %-------------------------------------------------------------------%
-fprintf("Rishi Kishore\nAE313\nHomework 5\n\n********** Orbital Mechanics Program **********\n");
+fprintf("Rishi Kishore\n\n********** Orbital Mechanics Program **********\n");
 
 %-------------------------------------------------------------------%
 % Part B: Output Initial Condition Data
@@ -183,3 +182,4 @@ function R = rotz(theta)
         -sin(theta), cos(theta), 0;
          0, 0, 1];
 end
+
